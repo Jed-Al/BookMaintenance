@@ -1,0 +1,20 @@
+.books-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    /* height: 400px; */
+    background-color: #e4e4e4;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+.books {
+    display: table;
+    overflow-y: scroll;
+}
+
+.books-table {
+    table-layout: fixed;
+    width: 100%;
+}
